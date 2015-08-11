@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    text-align: right
+}
+
+ul:first-child {
+    color: #848484;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+    color: #323232
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.main-nav {
+    padding-top: 15px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 2px;
+    margin: 5px;
+    ;
+}
+
+.hero-img {
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.bell-img {
+    width: 20px;
+    height: 20px;
+}
+
+.maincontent {
+    text-align: -webkit-center;
+    height: 231px;
+    margin-top: 148px;
+}
+
+.hero {
+    width: 269px;
+    height: 95px;
+    margin-bottom: 18px;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    border:1px solid #E6E6E6;
+
+}
+
+.footer li{
+	margin: 5px;
+}
+
+.footer-nav1 li {
+    float: left;
+    display: inline;
+    width: 70px;
+    padding-top: 7px;
+}
+
+.footer-nav2 li {
+    float: right;
+    display: inline;
+    width: 60px;
+    padding-top: 7px;
+}
+
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -2.5em;
+}
+
+.footer,.push {
+    height: 2.5em;
+    box-sizing:border-box;
+}
+form {
+  width: 550px;
+  height: 50px;
+  margin-right: 10px;
+  position: relative;
+}
+input {
+  width: 560px;
+  height: 24px;
+}
+
+.btn {
+  -webkit-border-radius: 2;
+  font-family: Arial;
+  color: #404040;
+  font-size: 11px;
+  background: #F5F5F5;
+  padding: 8px;
+  font-weight: bold;
+  border: solid #c7c7c7 1px;
+  text-decoration: none;
+  margin: 0 5px 0 5px;
+  text-align: center;
+}
+.btn:hover {
+  text-decoration: none;
+  box-shadow:
